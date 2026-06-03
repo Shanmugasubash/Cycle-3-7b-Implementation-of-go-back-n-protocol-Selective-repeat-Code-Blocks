@@ -27,9 +27,8 @@ Add: netproto and pthread
 7. 	Choose the file and verify the Go-Back-N protocol operation.
 
 💻 Program
-
+```
 #include <stdio.h>
-
 void main() {
     
     int i, j, n;
@@ -60,9 +59,12 @@ void main() {
     printf("\nSending frame %d\nFRAME ACKNOWLEDGED...\n", j);
     printf("\n\nALL FRAMES RECEIVED SUCCESSFULLY\n\n");
 }
-
+```
 🖥️ Sample Output
-<img width="1236" height="1108" alt="code block 2" src="https://github.com/user-attachments/assets/49621d52-6eda-4d7e-85e0-49a6ad75a1d6" />
+
+<img width="1045" height="533" alt="image" src="https://github.com/user-attachments/assets/0bd9d84b-3991-474a-91cc-7109d2130a94" />
+
+
 
 ✅ Result
 
